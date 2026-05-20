@@ -1,3 +1,6 @@
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20314541.svg)](https://doi.org/10.5281/zenodo.20314541)
+
+
 # EcoFL: Energy-Conscious Federated Learning
 
 EcoFL is a reproducible Python framework for benchmarking energy-aware federated learning on resource-constrained IoT edge devices. It accompanies the manuscript:
