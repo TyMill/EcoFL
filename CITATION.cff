@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+title: "EcoFL: Energy-Conscious Federated Learning"
+message: "If you use EcoFL in your research, please cite the accompanying article and this archived software release."
+type: software
+authors:
+  - family-names: Miller
+    given-names: Tymoteusz
+    email: tymoteusz.miller@usz.edu.pl
+version: 0.1.0
+date-released: 2026-05-20
+license: MIT
+repository-code: "https://github.com/TyMill/ecofl"
+keywords:
+  - federated learning
+  - edge AI
+  - IoT
+  - energy-aware AI
+  - TinyML

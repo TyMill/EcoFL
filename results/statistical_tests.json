@@ -1,0 +1,97 @@
+{
+  "n_seeds": 5,
+  "f1_tests": [
+    {
+      "model": "LogisticRegression",
+      "fedavg_mean": 0.6310206482689784,
+      "ecofl_mean": 0.6310206482689784,
+      "delta_mean": 0.0,
+      "wilcoxon_stat": 0.0,
+      "p_raw": 1.0,
+      "p_holm": 1.0,
+      "ci_95_lo": -0.16620693647976514,
+      "ci_95_hi": 0.16360627873111153
+    },
+    {
+      "model": "RandomForest",
+      "fedavg_mean": 0.5853929406526801,
+      "ecofl_mean": 0.6371359673952746,
+      "delta_mean": 0.051743026742594456,
+      "wilcoxon_stat": 0.0,
+      "p_raw": 0.5,
+      "p_holm": 1.0,
+      "ci_95_lo": -0.11497148935168348,
+      "ci_95_hi": 0.21565613321184512
+    },
+    {
+      "model": "XGBoost",
+      "fedavg_mean": 0.5963189850772974,
+      "ecofl_mean": 0.5963189850772974,
+      "delta_mean": 0.0,
+      "wilcoxon_stat": 0.0,
+      "p_raw": 1.0,
+      "p_holm": 1.0,
+      "ci_95_lo": -0.154423238582392,
+      "ci_95_hi": 0.15309648843160262
+    },
+    {
+      "model": "MLP",
+      "fedavg_mean": 0.6283564492491726,
+      "ecofl_mean": 0.5926056859786337,
+      "delta_mean": -0.03575076327053883,
+      "wilcoxon_stat": 4.0,
+      "p_raw": 0.4375,
+      "p_holm": 1.0,
+      "ci_95_lo": -0.1701066340239336,
+      "ci_95_hi": 0.10246149063329435
+    },
+    {
+      "model": "IsolationForest",
+      "fedavg_mean": 0.6115949122620921,
+      "ecofl_mean": 0.6115949122620921,
+      "delta_mean": 0.0,
+      "wilcoxon_stat": 0.0,
+      "p_raw": 1.0,
+      "p_holm": 1.0,
+      "ci_95_lo": -0.1043045793549684,
+      "ci_95_hi": 0.10128964649121586
+    }
+  ],
+  "energy_tests": [
+    {
+      "model": "LogisticRegression",
+      "fedavg_mean_mj": 22.165460000000003,
+      "ecofl_mean_mj": 4.33104,
+      "saving_pct": 80.46041002532769,
+      "p_holm": 0.15625
+    },
+    {
+      "model": "RandomForest",
+      "fedavg_mean_mj": 5841.15934,
+      "ecofl_mean_mj": 742.6519,
+      "saving_pct": 87.28588184687322,
+      "p_holm": 0.15625
+    },
+    {
+      "model": "XGBoost",
+      "fedavg_mean_mj": 22.5586,
+      "ecofl_mean_mj": 4.197579999999999,
+      "saving_pct": 81.39255095617636,
+      "p_holm": 0.15625
+    },
+    {
+      "model": "MLP",
+      "fedavg_mean_mj": 70945.60962,
+      "ecofl_mean_mj": 5020.962979999999,
+      "saving_pct": 92.92279958281652,
+      "p_holm": 0.15625
+    },
+    {
+      "model": "IsolationForest",
+      "fedavg_mean_mj": 22.40062,
+      "ecofl_mean_mj": 4.53922,
+      "saving_pct": 79.7361858734267,
+      "p_holm": 0.15625
+    }
+  ]
+}

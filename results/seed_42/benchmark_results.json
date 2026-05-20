@@ -1,0 +1,1078 @@
+[
+  {
+    "configuration": "centralized",
+    "model_name": "LogisticRegression",
+    "ml_metrics": {
+      "accuracy": 0.8777,
+      "f1": 0.46743356233690153,
+      "precision": 0.43885,
+      "recall": 0.5,
+      "roc_auc": 0.5765902500505158
+    },
+    "training_time_s": 0.0045084579978720285,
+    "inference_latency_mean_ms": 0.41253750096075237,
+    "inference_latency_p95_ms": 0.972637499580741,
+    "mean_cpu_percent": 0.0,
+    "peak_ram_mb": 22612.53125,
+    "total_energy_mj": 14.427065593190493,
+    "energy_per_round_mj": 14.427065593190493,
+    "communication_kb": 0.0,
+    "n_rounds": 1,
+    "model_size_kb": 0.3876953125,
+    "hardware_profile": "raspberry_pi4"
+  },
+  {
+    "configuration": "fedavg",
+    "model_name": "LogisticRegression",
+    "ml_metrics": {
+      "accuracy": 0.8777,
+      "f1": 0.46743356233690153,
+      "precision": 0.43885,
+      "recall": 0.5,
+      "roc_auc": 0.577886472215952
+    },
+    "training_time_s": 67.55390058300691,
+    "inference_latency_mean_ms": 305.96587500185706,
+    "inference_latency_p95_ms": 306.93031679984415,
+    "mean_cpu_percent": 66.2405,
+    "peak_ram_mb": 22662.95,
+    "total_energy_mj": 15.6538,
+    "energy_per_round_mj": 0.78269,
+    "communication_kb": 77.5390625,
+    "comm_per_round_kb": 3.876953125,
+    "n_rounds": 20,
+    "hardware_profile": "raspberry_pi4"
+  },
+  {
+    "configuration": "ecofl",
+    "model_name": "LogisticRegression",
+    "ml_metrics": {
+      "accuracy": 0.8777,
+      "f1": 0.46743356233690153,
+      "precision": 0.43885,
+      "recall": 0.5,
+      "roc_auc": 0.577886472215952
+    },
+    "training_time_s": 17.677809875000094,
+    "inference_latency_mean_ms": 304.97366640047403,
+    "inference_latency_p95_ms": 306.8798082022113,
+    "mean_cpu_percent": 90.27999999999999,
+    "peak_ram_mb": 22695.34,
+    "total_energy_mj": 5.4118,
+    "energy_per_round_mj": 1.35295,
+    "communication_kb": 15.5078125,
+    "comm_per_round_kb": 3.876953125,
+    "n_rounds": 4,
+    "hardware_profile": "raspberry_pi4",
+    "scheduler_stats": {
+      "rounds_run": 4,
+      "total_excluded_events": 0,
+      "rounds_without_improvement": 3,
+      "final_accuracy": 0.8777,
+      "accuracy_history": [
+        0.8777,
+        0.8777,
+        0.8777,
+        0.8777
+      ],
+      "exclusion_log": [
+        {
+          "round": 1,
+          "n_eligible": 10,
+          "n_excluded": 0,
+          "excluded_ids": [],
+          "reasons": {}
+        },
+        {
+          "round": 2,
+          "n_eligible": 10,
+          "n_excluded": 0,
+          "excluded_ids": [],
+          "reasons": {}
+        },
+        {
+          "round": 3,
+          "n_eligible": 10,
+          "n_excluded": 0,
+          "excluded_ids": [],
+          "reasons": {}
+        },
+        {
+          "round": 4,
+          "n_eligible": 10,
+          "n_excluded": 0,
+          "excluded_ids": [],
+          "reasons": {}
+        }
+      ]
+    }
+  },
+  {
+    "configuration": "centralized",
+    "model_name": "RandomForest",
+    "ml_metrics": {
+      "accuracy": 0.8777,
+      "f1": 0.46743356233690153,
+      "precision": 0.43885,
+      "recall": 0.5,
+      "roc_auc": 0.5743686273618395
+    },
+    "training_time_s": 2.0671330409968505,
+    "inference_latency_mean_ms": 12.557733301946428,
+    "inference_latency_p95_ms": 22.8851439031132,
+    "mean_cpu_percent": 9.74,
+    "peak_ram_mb": 22682.890625,
+    "total_energy_mj": 1256.6090664672852,
+    "energy_per_round_mj": 1256.6090664672852,
+    "communication_kb": 0.0,
+    "n_rounds": 1,
+    "model_size_kb": 636.0126953125,
+    "hardware_profile": "raspberry_pi4"
+  },
+  {
+    "configuration": "fedavg",
+    "model_name": "RandomForest",
+    "ml_metrics": {
+      "accuracy": 0.8777,
+      "f1": 0.46743356233690153,
+      "precision": 0.43885,
+      "recall": 0.5,
+      "roc_auc": 0.5408917848263752
+    },
+    "training_time_s": 136.01486858400312,
+    "inference_latency_mean_ms": 311.28127520059934,
+    "inference_latency_p95_ms": 313.8122670003213,
+    "mean_cpu_percent": 92.95750000000001,
+    "peak_ram_mb": 22720.34,
+    "total_energy_mj": 2530.8446,
+    "energy_per_round_mj": 126.54222999999999,
+    "communication_kb": 72528.49609375,
+    "comm_per_round_kb": 3626.4248046875,
+    "n_rounds": 20,
+    "hardware_profile": "raspberry_pi4"
+  },
+  {
+    "configuration": "ecofl",
+    "model_name": "RandomForest",
+    "ml_metrics": {
+      "accuracy": 0.8777,
+      "f1": 0.46743356233690153,
+      "precision": 0.43885,
+      "recall": 0.5,
+      "roc_auc": 0.5408956975280389
+    },
+    "training_time_s": 30.381537875000504,
+    "inference_latency_mean_ms": 310.60169999982463,
+    "inference_latency_p95_ms": 312.30154980003135,
+    "mean_cpu_percent": 89.16,
+    "peak_ram_mb": 22721.61,
+    "total_energy_mj": 509.6596,
+    "energy_per_round_mj": 127.4149,
+    "communication_kb": 14083.3095703125,
+    "comm_per_round_kb": 3520.827392578125,
+    "n_rounds": 4,
+    "hardware_profile": "raspberry_pi4",
+    "scheduler_stats": {
+      "rounds_run": 4,
+      "total_excluded_events": 1,
+      "rounds_without_improvement": 3,
+      "final_accuracy": 0.8777,
+      "accuracy_history": [
+        0.8777,
+        0.8777,
+        0.8777,
+        0.8777
+      ],
+      "exclusion_log": [
+        {
+          "round": 1,
+          "n_eligible": 10,
+          "n_excluded": 0,
+          "excluded_ids": [],
+          "reasons": {}
+        },
+        {
+          "round": 2,
+          "n_eligible": 10,
+          "n_excluded": 0,
+          "excluded_ids": [],
+          "reasons": {}
+        },
+        {
+          "round": 3,
+          "n_eligible": 10,
+          "n_excluded": 0,
+          "excluded_ids": [],
+          "reasons": {}
+        },
+        {
+          "round": 4,
+          "n_eligible": 9,
+          "n_excluded": 1,
+          "excluded_ids": [
+            7
+          ],
+          "reasons": {
+            "7": {
+              "cpu_ok": true,
+              "ram_ok": true,
+              "energy_ok": false,
+              "cpu_pct": 0.0,
+              "ram_pct": 50.1,
+              "energy_rem": -6.973628997802734
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "configuration": "centralized",
+    "model_name": "XGBoost",
+    "ml_metrics": {
+      "accuracy": 0.8776,
+      "f1": 0.4714396929099162,
+      "precision": 0.6663056635025801,
+      "recall": 0.5017023512821691,
+      "roc_auc": 0.5764735676973313
+    },
+    "training_time_s": 0.1092045830009738,
+    "inference_latency_mean_ms": 5.412908500147751,
+    "inference_latency_p95_ms": 10.21114770410349,
+    "mean_cpu_percent": 6.3,
+    "peak_ram_mb": 22693.625,
+    "total_energy_mj": 0.16419067382812502,
+    "energy_per_round_mj": 0.16419067382812502,
+    "communication_kb": 0.0,
+    "n_rounds": 1,
+    "model_size_kb": 86.3369140625,
+    "hardware_profile": "raspberry_pi4"
+  },
+  {
+    "configuration": "fedavg",
+    "model_name": "XGBoost",
+    "ml_metrics": {
+      "accuracy": 0.8777,
+      "f1": 0.46743356233690153,
+      "precision": 0.43885,
+      "recall": 0.5,
+      "roc_auc": 0.5502095577799369
+    },
+    "training_time_s": 126.00383308299934,
+    "inference_latency_mean_ms": 305.9840333997272,
+    "inference_latency_p95_ms": 307.7248250017874,
+    "mean_cpu_percent": 83.92800000000001,
+    "peak_ram_mb": 22712.08,
+    "total_energy_mj": 17.287,
+    "energy_per_round_mj": 0.86435,
+    "communication_kb": 14020.625,
+    "comm_per_round_kb": 701.03125,
+    "n_rounds": 20,
+    "hardware_profile": "raspberry_pi4"
+  },
+  {
+    "configuration": "ecofl",
+    "model_name": "XGBoost",
+    "ml_metrics": {
+      "accuracy": 0.8777,
+      "f1": 0.46743356233690153,
+      "precision": 0.43885,
+      "recall": 0.5,
+      "roc_auc": 0.5502095577799369
+    },
+    "training_time_s": 29.307406334002735,
+    "inference_latency_mean_ms": 305.36075019917917,
+    "inference_latency_p95_ms": 306.799167196732,
+    "mean_cpu_percent": 93.6225,
+    "peak_ram_mb": 22686.69,
+    "total_energy_mj": 3.799,
+    "energy_per_round_mj": 0.94975,
+    "communication_kb": 2804.125,
+    "comm_per_round_kb": 701.03125,
+    "n_rounds": 4,
+    "hardware_profile": "raspberry_pi4",
+    "scheduler_stats": {
+      "rounds_run": 4,
+      "total_excluded_events": 0,
+      "rounds_without_improvement": 3,
+      "final_accuracy": 0.8777,
+      "accuracy_history": [
+        0.8777,
+        0.8777,
+        0.8777,
+        0.8777
+      ],
+      "exclusion_log": [
+        {
+          "round": 1,
+          "n_eligible": 10,
+          "n_excluded": 0,
+          "excluded_ids": [],
+          "reasons": {}
+        },
+        {
+          "round": 2,
+          "n_eligible": 10,
+          "n_excluded": 0,
+          "excluded_ids": [],
+          "reasons": {}
+        },
+        {
+          "round": 3,
+          "n_eligible": 10,
+          "n_excluded": 0,
+          "excluded_ids": [],
+          "reasons": {}
+        },
+        {
+          "round": 4,
+          "n_eligible": 10,
+          "n_excluded": 0,
+          "excluded_ids": [],
+          "reasons": {}
+        }
+      ]
+    }
+  },
+  {
+    "configuration": "centralized",
+    "model_name": "MLP",
+    "ml_metrics": {
+      "accuracy": 0.8705,
+      "f1": 0.4970348554068423,
+      "precision": 0.5775914634146342,
+      "recall": 0.5113803722674786,
+      "roc_auc": 0.5307223471440212
+    },
+    "training_time_s": 7.801382874997216,
+    "inference_latency_mean_ms": 2.386995698179817,
+    "inference_latency_p95_ms": 3.1373581470688796,
+    "mean_cpu_percent": 12.7375,
+    "peak_ram_mb": 22698.484375,
+    "total_energy_mj": 6174.9631723403945,
+    "energy_per_round_mj": 6174.9631723403945,
+    "communication_kb": 0.0,
+    "n_rounds": 1,
+    "model_size_kb": 11.841796875,
+    "hardware_profile": "raspberry_pi4"
+  },
+  {
+    "configuration": "fedavg",
+    "model_name": "MLP",
+    "ml_metrics": {
+      "accuracy": 0.8777,
+      "f1": 0.46824641973966685,
+      "precision": 0.6888877775555111,
+      "recall": 0.5003518636710402,
+      "roc_auc": 0.5041262699628135
+    },
+    "training_time_s": 152.8848536250007,
+    "inference_latency_mean_ms": 306.33454199996777,
+    "inference_latency_p95_ms": 306.6977419992327,
+    "mean_cpu_percent": 100.0,
+    "peak_ram_mb": 22694.2,
+    "total_energy_mj": 51596.5628,
+    "energy_per_round_mj": 2579.82814,
+    "communication_kb": 2368.359375,
+    "comm_per_round_kb": 118.41796875,
+    "n_rounds": 20,
+    "hardware_profile": "raspberry_pi4"
+  },
+  {
+    "configuration": "ecofl",
+    "model_name": "MLP",
+    "ml_metrics": {
+      "accuracy": 0.6973,
+      "f1": 0.5107434009152347,
+      "precision": 0.5209810637064799,
+      "recall": 0.5376250049956816,
+      "roc_auc": 0.5446263188250045
+    },
+    "training_time_s": 37.70560070800275,
+    "inference_latency_mean_ms": 305.0409833987942,
+    "inference_latency_p95_ms": 306.59643320250325,
+    "mean_cpu_percent": 71.379,
+    "peak_ram_mb": 23078.39,
+    "total_energy_mj": 5257.9463,
+    "energy_per_round_mj": 525.79463,
+    "communication_kb": 580.248046875,
+    "comm_per_round_kb": 58.0248046875,
+    "n_rounds": 10,
+    "hardware_profile": "raspberry_pi4",
+    "scheduler_stats": {
+      "rounds_run": 10,
+      "total_excluded_events": 51,
+      "rounds_without_improvement": 3,
+      "final_accuracy": 0.6973,
+      "accuracy_history": [
+        0.8777,
+        0.8777,
+        0.8597,
+        0.8088,
+        0.8088,
+        0.8088,
+        0.6973,
+        0.6973,
+        0.6973,
+        0.6973
+      ],
+      "exclusion_log": [
+        {
+          "round": 1,
+          "n_eligible": 10,
+          "n_excluded": 0,
+          "excluded_ids": [],
+          "reasons": {}
+        },
+        {
+          "round": 2,
+          "n_eligible": 9,
+          "n_excluded": 1,
+          "excluded_ids": [
+            7
+          ],
+          "reasons": {
+            "7": {
+              "cpu_ok": true,
+              "ram_ok": true,
+              "energy_ok": false,
+              "cpu_pct": 0.0,
+              "ram_pct": 50.1,
+              "energy_rem": -402.90151184082026
+            }
+          }
+        },
+        {
+          "round": 3,
+          "n_eligible": 6,
+          "n_excluded": 4,
+          "excluded_ids": [
+            4,
+            7,
+            8,
+            9
+          ],
+          "reasons": {
+            "4": {
+              "cpu_ok": true,
+              "ram_ok": true,
+              "energy_ok": false,
+              "cpu_pct": 6.4,
+              "ram_pct": 50.1,
+              "energy_rem": -341.7235310872396
+            },
+            "7": {
+              "cpu_ok": true,
+              "ram_ok": true,
+              "energy_ok": false,
+              "cpu_pct": 0.0,
+              "ram_pct": 50.1,
+              "energy_rem": -402.90151184082026
+            },
+            "8": {
+              "cpu_ok": true,
+              "ram_ok": true,
+              "energy_ok": false,
+              "cpu_pct": 0.0,
+              "ram_pct": 50.1,
+              "energy_rem": -31.57033030192065
+            },
+            "9": {
+              "cpu_ok": true,
+              "ram_ok": true,
+              "energy_ok": false,
+              "cpu_pct": 0.0,
+              "ram_pct": 50.1,
+              "energy_rem": -519.2949035644532
+            }
+          }
+        },
+        {
+          "round": 4,
+          "n_eligible": 4,
+          "n_excluded": 6,
+          "excluded_ids": [
+            1,
+            3,
+            4,
+            7,
+            8,
+            9
+          ],
+          "reasons": {
+            "1": {
+              "cpu_ok": true,
+              "ram_ok": true,
+              "energy_ok": false,
+              "cpu_pct": 6.0,
+              "ram_pct": 50.1,
+              "energy_rem": -96.71003799438483
+            },
+            "3": {
+              "cpu_ok": true,
+              "ram_ok": true,
+              "energy_ok": false,
+              "cpu_pct": 0.0,
+              "ram_pct": 50.1,
+              "energy_rem": -204.12908554077148
+            },
+            "4": {
+              "cpu_ok": true,
+              "ram_ok": true,
+              "energy_ok": false,
+              "cpu_pct": 0.0,
+              "ram_pct": 50.1,
+              "energy_rem": -341.7235310872396
+            },
+            "7": {
+              "cpu_ok": true,
+              "ram_ok": true,
+              "energy_ok": false,
+              "cpu_pct": 0.0,
+              "ram_pct": 50.1,
+              "energy_rem": -402.90151184082026
+            },
+            "8": {
+              "cpu_ok": true,
+              "ram_ok": true,
+              "energy_ok": false,
+              "cpu_pct": 0.0,
+              "ram_pct": 50.1,
+              "energy_rem": -31.57033030192065
+            },
+            "9": {
+              "cpu_ok": true,
+              "ram_ok": true,
+              "energy_ok": false,
+              "cpu_pct": 5.4,
+              "ram_pct": 50.1,
+              "energy_rem": -519.2949035644532
+            }
+          }
+        },
+        {
+          "round": 5,
+          "n_eligible": 4,
+          "n_excluded": 6,
+          "excluded_ids": [
+            1,
+            3,
+            4,
+            7,
+            8,
+            9
+          ],
+          "reasons": {
+            "1": {
+              "cpu_ok": true,
+              "ram_ok": true,
+              "energy_ok": false,
+              "cpu_pct": 0.0,
+              "ram_pct": 50.1,
+              "energy_rem": -96.71003799438483
+            },
+            "3": {
+              "cpu_ok": true,
+              "ram_ok": true,
+              "energy_ok": false,
+              "cpu_pct": 4.4,
+              "ram_pct": 50.1,
+              "energy_rem": -204.12908554077148
+            },
+            "4": {
+              "cpu_ok": true,
+              "ram_ok": true,
+              "energy_ok": false,
+              "cpu_pct": 14.9,
+              "ram_pct": 50.1,
+              "energy_rem": -341.7235310872396
+            },
+            "7": {
+              "cpu_ok": true,
+              "ram_ok": true,
+              "energy_ok": false,
+              "cpu_pct": 0.0,
+              "ram_pct": 50.1,
+              "energy_rem": -402.90151184082026
+            },
+            "8": {
+              "cpu_ok": true,
+              "ram_ok": true,
+              "energy_ok": false,
+              "cpu_pct": 0.0,
+              "ram_pct": 50.1,
+              "energy_rem": -31.57033030192065
+            },
+            "9": {
+              "cpu_ok": true,
+              "ram_ok": true,
+              "energy_ok": false,
+              "cpu_pct": 0.0,
+              "ram_pct": 50.1,
+              "energy_rem": -519.2949035644532
+            }
+          }
+        },
+        {
+          "round": 6,
+          "n_eligible": 4,
+          "n_excluded": 6,
+          "excluded_ids": [
+            1,
+            3,
+            4,
+            7,
+            8,
+            9
+          ],
+          "reasons": {
+            "1": {
+              "cpu_ok": true,
+              "ram_ok": true,
+              "energy_ok": false,
+              "cpu_pct": 3.4,
+              "ram_pct": 50.1,
+              "energy_rem": -96.71003799438483
+            },
+            "3": {
+              "cpu_ok": true,
+              "ram_ok": true,
+              "energy_ok": false,
+              "cpu_pct": 0.0,
+              "ram_pct": 50.1,
+              "energy_rem": -204.12908554077148
+            },
+            "4": {
+              "cpu_ok": true,
+              "ram_ok": true,
+              "energy_ok": false,
+              "cpu_pct": 0.0,
+              "ram_pct": 50.1,
+              "energy_rem": -341.7235310872396
+            },
+            "7": {
+              "cpu_ok": true,
+              "ram_ok": true,
+              "energy_ok": false,
+              "cpu_pct": 0.0,
+              "ram_pct": 50.1,
+              "energy_rem": -402.90151184082026
+            },
+            "8": {
+              "cpu_ok": true,
+              "ram_ok": true,
+              "energy_ok": false,
+              "cpu_pct": 0.0,
+              "ram_pct": 50.1,
+              "energy_rem": -31.57033030192065
+            },
+            "9": {
+              "cpu_ok": true,
+              "ram_ok": true,
+              "energy_ok": false,
+              "cpu_pct": 5.5,
+              "ram_pct": 50.1,
+              "energy_rem": -519.2949035644532
+            }
+          }
+        },
+        {
+          "round": 7,
+          "n_eligible": 3,
+          "n_excluded": 7,
+          "excluded_ids": [
+            0,
+            1,
+            3,
+            4,
+            7,
+            8,
+            9
+          ],
+          "reasons": {
+            "0": {
+              "cpu_ok": true,
+              "ram_ok": true,
+              "energy_ok": false,
+              "cpu_pct": 13.0,
+              "ram_pct": 50.1,
+              "energy_rem": -159.0658363342285
+            },
+            "1": {
+              "cpu_ok": true,
+              "ram_ok": true,
+              "energy_ok": false,
+              "cpu_pct": 6.9,
+              "ram_pct": 50.1,
+              "energy_rem": -96.71003799438483
+            },
+            "3": {
+              "cpu_ok": true,
+              "ram_ok": true,
+              "energy_ok": false,
+              "cpu_pct": 4.2,
+              "ram_pct": 50.1,
+              "energy_rem": -204.12908554077148
+            },
+            "4": {
+              "cpu_ok": true,
+              "ram_ok": true,
+              "energy_ok": false,
+              "cpu_pct": 4.1,
+              "ram_pct": 50.1,
+              "energy_rem": -341.7235310872396
+            },
+            "7": {
+              "cpu_ok": true,
+              "ram_ok": true,
+              "energy_ok": false,
+              "cpu_pct": 8.2,
+              "ram_pct": 50.1,
+              "energy_rem": -402.90151184082026
+            },
+            "8": {
+              "cpu_ok": true,
+              "ram_ok": true,
+              "energy_ok": false,
+              "cpu_pct": 0.0,
+              "ram_pct": 50.1,
+              "energy_rem": -31.57033030192065
+            },
+            "9": {
+              "cpu_ok": true,
+              "ram_ok": true,
+              "energy_ok": false,
+              "cpu_pct": 0.0,
+              "ram_pct": 50.1,
+              "energy_rem": -519.2949035644532
+            }
+          }
+        },
+        {
+          "round": 8,
+          "n_eligible": 3,
+          "n_excluded": 7,
+          "excluded_ids": [
+            0,
+            1,
+            3,
+            4,
+            7,
+            8,
+            9
+          ],
+          "reasons": {
+            "0": {
+              "cpu_ok": true,
+              "ram_ok": true,
+              "energy_ok": false,
+              "cpu_pct": 0.0,
+              "ram_pct": 50.1,
+              "energy_rem": -159.0658363342285
+            },
+            "1": {
+              "cpu_ok": true,
+              "ram_ok": true,
+              "energy_ok": false,
+              "cpu_pct": 0.0,
+              "ram_pct": 50.1,
+              "energy_rem": -96.71003799438483
+            },
+            "3": {
+              "cpu_ok": true,
+              "ram_ok": true,
+              "energy_ok": false,
+              "cpu_pct": 7.1,
+              "ram_pct": 50.1,
+              "energy_rem": -204.12908554077148
+            },
+            "4": {
+              "cpu_ok": true,
+              "ram_ok": true,
+              "energy_ok": false,
+              "cpu_pct": 9.6,
+              "ram_pct": 50.1,
+              "energy_rem": -341.7235310872396
+            },
+            "7": {
+              "cpu_ok": true,
+              "ram_ok": true,
+              "energy_ok": false,
+              "cpu_pct": 0.0,
+              "ram_pct": 50.1,
+              "energy_rem": -402.90151184082026
+            },
+            "8": {
+              "cpu_ok": true,
+              "ram_ok": true,
+              "energy_ok": false,
+              "cpu_pct": 0.0,
+              "ram_pct": 50.1,
+              "energy_rem": -31.57033030192065
+            },
+            "9": {
+              "cpu_ok": true,
+              "ram_ok": true,
+              "energy_ok": false,
+              "cpu_pct": 0.0,
+              "ram_pct": 50.1,
+              "energy_rem": -519.2949035644532
+            }
+          }
+        },
+        {
+          "round": 9,
+          "n_eligible": 3,
+          "n_excluded": 7,
+          "excluded_ids": [
+            0,
+            1,
+            3,
+            4,
+            7,
+            8,
+            9
+          ],
+          "reasons": {
+            "0": {
+              "cpu_ok": true,
+              "ram_ok": true,
+              "energy_ok": false,
+              "cpu_pct": 0.0,
+              "ram_pct": 50.1,
+              "energy_rem": -159.0658363342285
+            },
+            "1": {
+              "cpu_ok": true,
+              "ram_ok": true,
+              "energy_ok": false,
+              "cpu_pct": 0.0,
+              "ram_pct": 50.1,
+              "energy_rem": -96.71003799438483
+            },
+            "3": {
+              "cpu_ok": true,
+              "ram_ok": true,
+              "energy_ok": false,
+              "cpu_pct": 7.4,
+              "ram_pct": 50.1,
+              "energy_rem": -204.12908554077148
+            },
+            "4": {
+              "cpu_ok": true,
+              "ram_ok": true,
+              "energy_ok": false,
+              "cpu_pct": 6.0,
+              "ram_pct": 50.1,
+              "energy_rem": -341.7235310872396
+            },
+            "7": {
+              "cpu_ok": true,
+              "ram_ok": true,
+              "energy_ok": false,
+              "cpu_pct": 2.9,
+              "ram_pct": 50.1,
+              "energy_rem": -402.90151184082026
+            },
+            "8": {
+              "cpu_ok": true,
+              "ram_ok": true,
+              "energy_ok": false,
+              "cpu_pct": 0.0,
+              "ram_pct": 50.1,
+              "energy_rem": -31.57033030192065
+            },
+            "9": {
+              "cpu_ok": true,
+              "ram_ok": true,
+              "energy_ok": false,
+              "cpu_pct": 0.0,
+              "ram_pct": 50.1,
+              "energy_rem": -519.2949035644532
+            }
+          }
+        },
+        {
+          "round": 10,
+          "n_eligible": 3,
+          "n_excluded": 7,
+          "excluded_ids": [
+            0,
+            1,
+            3,
+            4,
+            7,
+            8,
+            9
+          ],
+          "reasons": {
+            "0": {
+              "cpu_ok": true,
+              "ram_ok": true,
+              "energy_ok": false,
+              "cpu_pct": 8.6,
+              "ram_pct": 50.9,
+              "energy_rem": -159.0658363342285
+            },
+            "1": {
+              "cpu_ok": true,
+              "ram_ok": true,
+              "energy_ok": false,
+              "cpu_pct": 4.8,
+              "ram_pct": 50.9,
+              "energy_rem": -96.71003799438483
+            },
+            "3": {
+              "cpu_ok": true,
+              "ram_ok": true,
+              "energy_ok": false,
+              "cpu_pct": 6.2,
+              "ram_pct": 50.9,
+              "energy_rem": -204.12908554077148
+            },
+            "4": {
+              "cpu_ok": true,
+              "ram_ok": true,
+              "energy_ok": false,
+              "cpu_pct": 4.3,
+              "ram_pct": 50.8,
+              "energy_rem": -341.7235310872396
+            },
+            "7": {
+              "cpu_ok": true,
+              "ram_ok": true,
+              "energy_ok": false,
+              "cpu_pct": 0.0,
+              "ram_pct": 50.8,
+              "energy_rem": -402.90151184082026
+            },
+            "8": {
+              "cpu_ok": true,
+              "ram_ok": true,
+              "energy_ok": false,
+              "cpu_pct": 0.0,
+              "ram_pct": 50.9,
+              "energy_rem": -31.57033030192065
+            },
+            "9": {
+              "cpu_ok": true,
+              "ram_ok": true,
+              "energy_ok": false,
+              "cpu_pct": 0.0,
+              "ram_pct": 50.9,
+              "energy_rem": -519.2949035644532
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "configuration": "centralized",
+    "model_name": "IsolationForest",
+    "ml_metrics": {
+      "accuracy": 0.8408,
+      "f1": 0.5091207340988418,
+      "precision": 0.5246008793952414,
+      "recall": 0.512054335129046,
+      "roc_auc": 0.5398463482056677
+    },
+    "training_time_s": 0.11764825000136625,
+    "inference_latency_mean_ms": 16.85843739833217,
+    "inference_latency_p95_ms": 28.81893734665936,
+    "mean_cpu_percent": 4.2,
+    "peak_ram_mb": 22736.328125,
+    "total_energy_mj": 0.10298767089843752,
+    "energy_per_round_mj": 0.10298767089843752,
+    "communication_kb": 0.0,
+    "n_rounds": 1,
+    "model_size_kb": 559.5791015625,
+    "hardware_profile": "raspberry_pi4"
+  },
+  {
+    "configuration": "fedavg",
+    "model_name": "IsolationForest",
+    "ml_metrics": {
+      "accuracy": 0.8472,
+      "f1": 0.5072615077978446,
+      "precision": 0.5282930038797645,
+      "recall": 0.5118297274216386,
+      "roc_auc": 0.5303783554560901
+    },
+    "training_time_s": 132.4154195420051,
+    "inference_latency_mean_ms": 310.5001752002863,
+    "inference_latency_p95_ms": 313.7511336026364,
+    "mean_cpu_percent": 87.1395,
+    "peak_ram_mb": 22727.03,
+    "total_energy_mj": 19.099400000000003,
+    "energy_per_round_mj": 0.9549700000000001,
+    "communication_kb": 108244.1015625,
+    "comm_per_round_kb": 5412.205078125,
+    "n_rounds": 20,
+    "hardware_profile": "raspberry_pi4"
+  },
+  {
+    "configuration": "ecofl",
+    "model_name": "IsolationForest",
+    "ml_metrics": {
+      "accuracy": 0.8472,
+      "f1": 0.5072615077978446,
+      "precision": 0.5282930038797645,
+      "recall": 0.5118297274216386,
+      "roc_auc": 0.5303783554560901
+    },
+    "training_time_s": 30.58202845899359,
+    "inference_latency_mean_ms": 310.2615082010743,
+    "inference_latency_p95_ms": 311.5284332030569,
+    "mean_cpu_percent": 91.21000000000001,
+    "peak_ram_mb": 23659.42,
+    "total_energy_mj": 4.8468,
+    "energy_per_round_mj": 1.2117,
+    "communication_kb": 21648.8203125,
+    "comm_per_round_kb": 5412.205078125,
+    "n_rounds": 4,
+    "hardware_profile": "raspberry_pi4",
+    "scheduler_stats": {
+      "rounds_run": 4,
+      "total_excluded_events": 0,
+      "rounds_without_improvement": 3,
+      "final_accuracy": 0.8472,
+      "accuracy_history": [
+        0.8472,
+        0.8472,
+        0.8472,
+        0.8472
+      ],
+      "exclusion_log": [
+        {
+          "round": 1,
+          "n_eligible": 10,
+          "n_excluded": 0,
+          "excluded_ids": [],
+          "reasons": {}
+        },
+        {
+          "round": 2,
+          "n_eligible": 10,
+          "n_excluded": 0,
+          "excluded_ids": [],
+          "reasons": {}
+        },
+        {
+          "round": 3,
+          "n_eligible": 10,
+          "n_excluded": 0,
+          "excluded_ids": [],
+          "reasons": {}
+        },
+        {
+          "round": 4,
+          "n_eligible": 10,
+          "n_excluded": 0,
+          "excluded_ids": [],
+          "reasons": {}
+        }
+      ]
+    }
+  }
+]

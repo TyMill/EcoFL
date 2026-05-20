@@ -1,0 +1,782 @@
+[
+  {
+    "model_name": "LogisticRegression",
+    "configuration": "centralized",
+    "n_seeds": 5,
+    "ml_metrics": {
+      "accuracy": {
+        "mean": 0.90396,
+        "std": 0.021421820650915722
+      },
+      "f1": {
+        "mean": 0.6366312326138386,
+        "std": 0.13820572951454194
+      },
+      "roc_auc": {
+        "mean": 0.6505805389990222,
+        "std": 0.047913651342234645
+      },
+      "precision": {
+        "mean": 0.732207063919169,
+        "std": 0.2395297199256702
+      },
+      "recall": {
+        "mean": 0.6133374447671217,
+        "std": 0.09261249438654663
+      }
+    },
+    "total_energy_mj": {
+      "mean": 2.969931246079505,
+      "std": 5.7287732842544274
+    },
+    "inference_latency_mean_ms": {
+      "mean": 0.4860758200811688,
+      "std": 0.08950910402144496
+    },
+    "peak_ram_mb": {
+      "mean": 23021.2875,
+      "std": 254.64495610923652
+    },
+    "communication_kb": {
+      "mean": 0.0,
+      "std": 0.0
+    },
+    "n_rounds": {
+      "mean": 1.0,
+      "std": 0.0
+    },
+    "training_time_s": {
+      "mean": 0.004584541601070668,
+      "std": 0.0007684861010172214
+    },
+    "hardware_profile": "raspberry_pi4"
+  },
+  {
+    "model_name": "LogisticRegression",
+    "configuration": "fedavg",
+    "n_seeds": 5,
+    "ml_metrics": {
+      "accuracy": {
+        "mean": 0.9027799999999999,
+        "std": 0.020534205609178048
+      },
+      "f1": {
+        "mean": 0.6310206482689784,
+        "std": 0.1339284369638619
+      },
+      "roc_auc": {
+        "mean": 0.6501378533236031,
+        "std": 0.04676340014580934
+      },
+      "precision": {
+        "mean": 0.7311821642632128,
+        "std": 0.23869253574107924
+      },
+      "recall": {
+        "mean": 0.6083437660690103,
+        "std": 0.08890712663471712
+      }
+    },
+    "total_energy_mj": {
+      "mean": 22.165460000000003,
+      "std": 4.843877561871274
+    },
+    "inference_latency_mean_ms": {
+      "mean": 304.6736434006016,
+      "std": 0.8410391852665814
+    },
+    "peak_ram_mb": {
+      "mean": 23013.63,
+      "std": 175.93300713623904
+    },
+    "communication_kb": {
+      "mean": 77.5390625,
+      "std": 0.0
+    },
+    "n_rounds": {
+      "mean": 20.0,
+      "std": 0.0
+    },
+    "training_time_s": {
+      "mean": 67.43920574180083,
+      "std": 0.06686832385156223
+    },
+    "hardware_profile": "raspberry_pi4"
+  },
+  {
+    "model_name": "LogisticRegression",
+    "configuration": "ecofl",
+    "n_seeds": 5,
+    "ml_metrics": {
+      "accuracy": {
+        "mean": 0.9027799999999999,
+        "std": 0.020534205609178048
+      },
+      "f1": {
+        "mean": 0.6310206482689784,
+        "std": 0.1339284369638619
+      },
+      "roc_auc": {
+        "mean": 0.6501378533236031,
+        "std": 0.04676340014580934
+      },
+      "precision": {
+        "mean": 0.7311821642632128,
+        "std": 0.23869253574107924
+      },
+      "recall": {
+        "mean": 0.6083437660690103,
+        "std": 0.08890712663471712
+      }
+    },
+    "total_energy_mj": {
+      "mean": 4.33104,
+      "std": 0.8282011122909703
+    },
+    "inference_latency_mean_ms": {
+      "mean": 304.75498492014594,
+      "std": 0.31373749067967227
+    },
+    "peak_ram_mb": {
+      "mean": 23016.622,
+      "std": 160.9994657630888
+    },
+    "communication_kb": {
+      "mean": 15.5078125,
+      "std": 0.0
+    },
+    "n_rounds": {
+      "mean": 4.0,
+      "std": 0.0
+    },
+    "training_time_s": {
+      "mean": 17.655104666599073,
+      "std": 0.011653524844157114
+    },
+    "hardware_profile": "raspberry_pi4"
+  },
+  {
+    "model_name": "RandomForest",
+    "configuration": "centralized",
+    "n_seeds": 5,
+    "ml_metrics": {
+      "accuracy": {
+        "mean": 0.9039999999999999,
+        "std": 0.021373067164073563
+      },
+      "f1": {
+        "mean": 0.6379315343098211,
+        "std": 0.13662958877791725
+      },
+      "roc_auc": {
+        "mean": 0.6470329229154854,
+        "std": 0.048182147201880646
+      },
+      "precision": {
+        "mean": 0.7894129012342673,
+        "std": 0.192111336613688
+      },
+      "recall": {
+        "mean": 0.6139237565516418,
+        "std": 0.0918996572547694
+      }
+    },
+    "total_energy_mj": {
+      "mean": 1461.607490600586,
+      "std": 185.46404593623456
+    },
+    "inference_latency_mean_ms": {
+      "mean": 11.817683239933103,
+      "std": 0.6331075681290596
+    },
+    "peak_ram_mb": {
+      "mean": 23013.80625,
+      "std": 165.78344178569978
+    },
+    "communication_kb": {
+      "mean": 0.0,
+      "std": 0.0
+    },
+    "n_rounds": {
+      "mean": 1.0,
+      "std": 0.0
+    },
+    "training_time_s": {
+      "mean": 2.188945849999436,
+      "std": 0.07760388940694654
+    },
+    "hardware_profile": "raspberry_pi4"
+  },
+  {
+    "model_name": "RandomForest",
+    "configuration": "fedavg",
+    "n_seeds": 5,
+    "ml_metrics": {
+      "accuracy": {
+        "mean": 0.8957599999999999,
+        "std": 0.020745081344742882
+      },
+      "f1": {
+        "mean": 0.5853929406526801,
+        "std": 0.13346689660550098
+      },
+      "roc_auc": {
+        "mean": 0.6307689540652313,
+        "std": 0.07099029060805942
+      },
+      "precision": {
+        "mean": 0.76903896874586,
+        "std": 0.18669134988493327
+      },
+      "recall": {
+        "mean": 0.5779194677741041,
+        "std": 0.09008353483946238
+      }
+    },
+    "total_energy_mj": {
+      "mean": 5841.15934,
+      "std": 4808.88271479032
+    },
+    "inference_latency_mean_ms": {
+      "mean": 310.61968335998245,
+      "std": 0.641372024327347
+    },
+    "peak_ram_mb": {
+      "mean": 23044.678,
+      "std": 162.3124759715037
+    },
+    "communication_kb": {
+      "mean": 64598.3203125,
+      "std": 4357.695104366485
+    },
+    "n_rounds": {
+      "mean": 20.0,
+      "std": 0.0
+    },
+    "training_time_s": {
+      "mean": 139.65882615040027,
+      "std": 7.642493598638247
+    },
+    "hardware_profile": "raspberry_pi4"
+  },
+  {
+    "model_name": "RandomForest",
+    "configuration": "ecofl",
+    "n_seeds": 5,
+    "ml_metrics": {
+      "accuracy": {
+        "mean": 0.90402,
+        "std": 0.021348761088175575
+      },
+      "f1": {
+        "mean": 0.6371359673952746,
+        "std": 0.13759023014353286
+      },
+      "roc_auc": {
+        "mean": 0.6307889861112601,
+        "std": 0.07100474576054733
+      },
+      "precision": {
+        "mean": 0.8322334058217399,
+        "std": 0.19677067288921382
+      },
+      "recall": {
+        "mean": 0.6135829439487911,
+        "std": 0.09231287394510734
+      }
+    },
+    "total_energy_mj": {
+      "mean": 742.6519,
+      "std": 564.7478753185991
+    },
+    "inference_latency_mean_ms": {
+      "mean": 309.64271656033816,
+      "std": 0.9364897862287623
+    },
+    "peak_ram_mb": {
+      "mean": 23074.866,
+      "std": 186.51984211874066
+    },
+    "communication_kb": {
+      "mean": 12830.8998046875,
+      "std": 837.0715023966519
+    },
+    "n_rounds": {
+      "mean": 4.2,
+      "std": 0.39999999999999997
+    },
+    "training_time_s": {
+      "mean": 31.753197016801277,
+      "std": 2.4867673754875947
+    },
+    "hardware_profile": "raspberry_pi4"
+  },
+  {
+    "model_name": "XGBoost",
+    "configuration": "centralized",
+    "n_seeds": 5,
+    "ml_metrics": {
+      "accuracy": {
+        "mean": 0.90398,
+        "std": 0.0210730538840482
+      },
+      "f1": {
+        "mean": 0.6406260712313271,
+        "std": 0.13266856791857465
+      },
+      "roc_auc": {
+        "mean": 0.6494854790709678,
+        "std": 0.051016115384768704
+      },
+      "precision": {
+        "mean": 0.8412487084542214,
+        "std": 0.10775994778834422
+      },
+      "recall": {
+        "mean": 0.6151796123592171,
+        "std": 0.09005042475809162
+      }
+    },
+    "total_energy_mj": {
+      "mean": 0.16087432861328127,
+      "std": 0.023586237576658453
+    },
+    "inference_latency_mean_ms": {
+      "mean": 4.79788164011552,
+      "std": 0.45714543388750656
+    },
+    "peak_ram_mb": {
+      "mean": 23038.025,
+      "std": 174.67489293729722
+    },
+    "communication_kb": {
+      "mean": 0.0,
+      "std": 0.0
+    },
+    "n_rounds": {
+      "mean": 1.0,
+      "std": 0.0
+    },
+    "training_time_s": {
+      "mean": 0.09707256660185522,
+      "std": 0.006820586194556875
+    },
+    "hardware_profile": "raspberry_pi4"
+  },
+  {
+    "model_name": "XGBoost",
+    "configuration": "fedavg",
+    "n_seeds": 5,
+    "ml_metrics": {
+      "accuracy": {
+        "mean": 0.89704,
+        "std": 0.019920401602377374
+      },
+      "f1": {
+        "mean": 0.5963189850772974,
+        "std": 0.12720191937882913
+      },
+      "roc_auc": {
+        "mean": 0.6340171929403825,
+        "std": 0.0649705387808967
+      },
+      "precision": {
+        "mean": 0.7759991332130072,
+        "std": 0.19064622853693514
+      },
+      "recall": {
+        "mean": 0.5837480781459741,
+        "std": 0.08633148497644719
+      }
+    },
+    "total_energy_mj": {
+      "mean": 22.5586,
+      "std": 2.7560828405546887
+    },
+    "inference_latency_mean_ms": {
+      "mean": 305.2005149994511,
+      "std": 0.7460229363423999
+    },
+    "peak_ram_mb": {
+      "mean": 23040.170000000002,
+      "std": 164.8244558310441
+    },
+    "communication_kb": {
+      "mean": 13634.21484375,
+      "std": 329.86775711278176
+    },
+    "n_rounds": {
+      "mean": 20.0,
+      "std": 0.0
+    },
+    "training_time_s": {
+      "mean": 125.9832247414015,
+      "std": 0.22145437915046454
+    },
+    "hardware_profile": "raspberry_pi4"
+  },
+  {
+    "model_name": "XGBoost",
+    "configuration": "ecofl",
+    "n_seeds": 5,
+    "ml_metrics": {
+      "accuracy": {
+        "mean": 0.89704,
+        "std": 0.019920401602377374
+      },
+      "f1": {
+        "mean": 0.5963189850772974,
+        "std": 0.12720191937882913
+      },
+      "roc_auc": {
+        "mean": 0.6340171929403825,
+        "std": 0.0649705387808967
+      },
+      "precision": {
+        "mean": 0.7759991332130072,
+        "std": 0.19064622853693514
+      },
+      "recall": {
+        "mean": 0.5837480781459741,
+        "std": 0.08633148497644719
+      }
+    },
+    "total_energy_mj": {
+      "mean": 4.197579999999999,
+      "std": 0.4481776005112258
+    },
+    "inference_latency_mean_ms": {
+      "mean": 305.5711334000807,
+      "std": 0.3095653314278052
+    },
+    "peak_ram_mb": {
+      "mean": 23033.131999999998,
+      "std": 173.70893441616704
+    },
+    "communication_kb": {
+      "mean": 2726.84296875,
+      "std": 65.97355142255635
+    },
+    "n_rounds": {
+      "mean": 4.0,
+      "std": 0.0
+    },
+    "training_time_s": {
+      "mean": 29.323663791798754,
+      "std": 0.015333587906728034
+    },
+    "hardware_profile": "raspberry_pi4"
+  },
+  {
+    "model_name": "MLP",
+    "configuration": "centralized",
+    "n_seeds": 5,
+    "ml_metrics": {
+      "accuracy": {
+        "mean": 0.89792,
+        "std": 0.022610475448340304
+      },
+      "f1": {
+        "mean": 0.6440302549091342,
+        "std": 0.11807499873485919
+      },
+      "roc_auc": {
+        "mean": 0.6282830931062565,
+        "std": 0.07202815120409296
+      },
+      "precision": {
+        "mean": 0.762695547886076,
+        "std": 0.14887627655090452
+      },
+      "recall": {
+        "mean": 0.6167971676680665,
+        "std": 0.08514346744666136
+      }
+    },
+    "total_energy_mj": {
+      "mean": 7046.836393702189,
+      "std": 543.2962556550144
+    },
+    "inference_latency_mean_ms": {
+      "mean": 1.9408165596541949,
+      "std": 1.1049871052017803
+    },
+    "peak_ram_mb": {
+      "mean": 23033.353125,
+      "std": 167.76718097327245
+    },
+    "communication_kb": {
+      "mean": 0.0,
+      "std": 0.0
+    },
+    "n_rounds": {
+      "mean": 1.0,
+      "std": 0.0
+    },
+    "training_time_s": {
+      "mean": 7.640852125200036,
+      "std": 0.12176103634562563
+    },
+    "hardware_profile": "raspberry_pi4"
+  },
+  {
+    "model_name": "MLP",
+    "configuration": "fedavg",
+    "n_seeds": 5,
+    "ml_metrics": {
+      "accuracy": {
+        "mean": 0.90206,
+        "std": 0.020226082171295567
+      },
+      "f1": {
+        "mean": 0.6283564492491726,
+        "std": 0.1308241235392352
+      },
+      "roc_auc": {
+        "mean": 0.6223907259890948,
+        "std": 0.08440612646196032
+      },
+      "precision": {
+        "mean": 0.8086848378104083,
+        "std": 0.148615394453177
+      },
+      "recall": {
+        "mean": 0.6056670523446519,
+        "std": 0.08664713766539224
+      }
+    },
+    "total_energy_mj": {
+      "mean": 70945.60962,
+      "std": 10272.527092713313
+    },
+    "inference_latency_mean_ms": {
+      "mean": 304.29291515931254,
+      "std": 1.313559337880566
+    },
+    "peak_ram_mb": {
+      "mean": 23032.773999999998,
+      "std": 173.0955282611305
+    },
+    "communication_kb": {
+      "mean": 2368.359375,
+      "std": 0.0
+    },
+    "n_rounds": {
+      "mean": 20.0,
+      "std": 0.0
+    },
+    "training_time_s": {
+      "mean": 160.32943426660057,
+      "std": 4.6143477191171245
+    },
+    "hardware_profile": "raspberry_pi4"
+  },
+  {
+    "model_name": "MLP",
+    "configuration": "ecofl",
+    "n_seeds": 5,
+    "ml_metrics": {
+      "accuracy": {
+        "mean": 0.83108,
+        "std": 0.08741188477546973
+      },
+      "f1": {
+        "mean": 0.5926056859786337,
+        "std": 0.0941136819130026
+      },
+      "roc_auc": {
+        "mean": 0.6247557107867387,
+        "std": 0.07785749827570389
+      },
+      "precision": {
+        "mean": 0.6802986288142653,
+        "std": 0.20761896760761372
+      },
+      "recall": {
+        "mean": 0.5938637733392784,
+        "std": 0.0630631296786996
+      }
+    },
+    "total_energy_mj": {
+      "mean": 5020.962979999999,
+      "std": 593.7732734245265
+    },
+    "inference_latency_mean_ms": {
+      "mean": 304.78771508001955,
+      "std": 0.7252041270468447
+    },
+    "peak_ram_mb": {
+      "mean": 23111.216,
+      "std": 40.623740152772875
+    },
+    "communication_kb": {
+      "mean": 449.98828125,
+      "std": 139.91372409715518
+    },
+    "n_rounds": {
+      "mean": 7.0,
+      "std": 2.0
+    },
+    "training_time_s": {
+      "mean": 27.93930401680118,
+      "std": 7.158443393267558
+    },
+    "hardware_profile": "raspberry_pi4"
+  },
+  {
+    "model_name": "IsolationForest",
+    "configuration": "centralized",
+    "n_seeds": 5,
+    "ml_metrics": {
+      "accuracy": {
+        "mean": 0.8677600000000002,
+        "std": 0.019299803107803958
+      },
+      "f1": {
+        "mean": 0.6224214225709976,
+        "std": 0.08556457831593672
+      },
+      "roc_auc": {
+        "mean": 0.6307386909520785,
+        "std": 0.06622181637403504
+      },
+      "precision": {
+        "mean": 0.6497833546537735,
+        "std": 0.09036373295303521
+      },
+      "recall": {
+        "mean": 0.6103271789114159,
+        "std": 0.0753476163268767
+      }
+    },
+    "total_energy_mj": {
+      "mean": 123.2935176352784,
+      "std": 151.0299634018979
+    },
+    "inference_latency_mean_ms": {
+      "mean": 15.627156619884772,
+      "std": 0.6710022123467657
+    },
+    "peak_ram_mb": {
+      "mean": 23016.671875,
+      "std": 144.4945848763674
+    },
+    "communication_kb": {
+      "mean": 0.0,
+      "std": 0.0
+    },
+    "n_rounds": {
+      "mean": 1.0,
+      "std": 0.0
+    },
+    "training_time_s": {
+      "mean": 0.09938224200159311,
+      "std": 0.009517522761990357
+    },
+    "hardware_profile": "raspberry_pi4"
+  },
+  {
+    "model_name": "IsolationForest",
+    "configuration": "fedavg",
+    "n_seeds": 5,
+    "ml_metrics": {
+      "accuracy": {
+        "mean": 0.8682000000000001,
+        "std": 0.019075953449303674
+      },
+      "f1": {
+        "mean": 0.6115949122620921,
+        "std": 0.0864286442826592
+      },
+      "roc_auc": {
+        "mean": 0.6218453576789325,
+        "std": 0.07320364840307685
+      },
+      "precision": {
+        "mean": 0.6440926293441745,
+        "std": 0.09267641167710942
+      },
+      "recall": {
+        "mean": 0.5993212197563653,
+        "std": 0.07429918189092985
+      }
+    },
+    "total_energy_mj": {
+      "mean": 22.40062,
+      "std": 1.6911995936612552
+    },
+    "inference_latency_mean_ms": {
+      "mean": 309.9614850402577,
+      "std": 0.6031533252023448
+    },
+    "peak_ram_mb": {
+      "mean": 23061.458,
+      "std": 168.71048508021133
+    },
+    "communication_kb": {
+      "mean": 105420.94140625,
+      "std": 2845.059046647776
+    },
+    "n_rounds": {
+      "mean": 20.0,
+      "std": 0.0
+    },
+    "training_time_s": {
+      "mean": 132.20233750840126,
+      "std": 0.14481889415432733
+    },
+    "hardware_profile": "raspberry_pi4"
+  },
+  {
+    "model_name": "IsolationForest",
+    "configuration": "ecofl",
+    "n_seeds": 5,
+    "ml_metrics": {
+      "accuracy": {
+        "mean": 0.8682000000000001,
+        "std": 0.019075953449303674
+      },
+      "f1": {
+        "mean": 0.6115949122620921,
+        "std": 0.0864286442826592
+      },
+      "roc_auc": {
+        "mean": 0.6218453576789325,
+        "std": 0.07320364840307685
+      },
+      "precision": {
+        "mean": 0.6440926293441745,
+        "std": 0.09267641167710942
+      },
+      "recall": {
+        "mean": 0.5993212197563653,
+        "std": 0.07429918189092985
+      }
+    },
+    "total_energy_mj": {
+      "mean": 4.53922,
+      "std": 0.383065155815561
+    },
+    "inference_latency_mean_ms": {
+      "mean": 311.2362900006701,
+      "std": 0.9959553430925888
+    },
+    "peak_ram_mb": {
+      "mean": 23232.08,
+      "std": 217.41580844087605
+    },
+    "communication_kb": {
+      "mean": 21084.18828125,
+      "std": 569.0118093295553
+    },
+    "n_rounds": {
+      "mean": 4.0,
+      "std": 0.0
+    },
+    "training_time_s": {
+      "mean": 30.581039474999123,
+      "std": 0.023612480273175997
+    },
+    "hardware_profile": "raspberry_pi4"
+  }
+]

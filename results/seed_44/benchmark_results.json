@@ -1,0 +1,892 @@
+[
+  {
+    "configuration": "centralized",
+    "model_name": "LogisticRegression",
+    "ml_metrics": {
+      "accuracy": 0.9225,
+      "f1": 0.7549301647416352,
+      "precision": 0.932108284501546,
+      "recall": 0.6936092045447775,
+      "roc_auc": 0.6937739810296649
+    },
+    "training_time_s": 0.005107167002279311,
+    "inference_latency_mean_ms": 0.5724373993871268,
+    "inference_latency_p95_ms": 0.726601597125409,
+    "mean_cpu_percent": 9.0,
+    "peak_ram_mb": 23174.65625,
+    "total_energy_mj": 0.066192626953125,
+    "energy_per_round_mj": 0.066192626953125,
+    "communication_kb": 0.0,
+    "n_rounds": 1,
+    "model_size_kb": 0.3876953125,
+    "hardware_profile": "raspberry_pi4"
+  },
+  {
+    "configuration": "fedavg",
+    "model_name": "LogisticRegression",
+    "ml_metrics": {
+      "accuracy": 0.9225,
+      "f1": 0.7549301647416352,
+      "precision": 0.932108284501546,
+      "recall": 0.6936092045447775,
+      "roc_auc": 0.6938842974898862
+    },
+    "training_time_s": 67.39341316699574,
+    "inference_latency_mean_ms": 304.7879915990052,
+    "inference_latency_p95_ms": 306.65665779961273,
+    "mean_cpu_percent": 89.87200000000001,
+    "peak_ram_mb": 23096.41,
+    "total_energy_mj": 19.652500000000003,
+    "energy_per_round_mj": 0.9826250000000002,
+    "communication_kb": 77.5390625,
+    "comm_per_round_kb": 3.876953125,
+    "n_rounds": 20,
+    "hardware_profile": "raspberry_pi4"
+  },
+  {
+    "configuration": "ecofl",
+    "model_name": "LogisticRegression",
+    "ml_metrics": {
+      "accuracy": 0.9225,
+      "f1": 0.7549301647416352,
+      "precision": 0.932108284501546,
+      "recall": 0.6936092045447775,
+      "roc_auc": 0.6938842974898862
+    },
+    "training_time_s": 17.647169332994963,
+    "inference_latency_mean_ms": 304.47260020155227,
+    "inference_latency_p95_ms": 306.31280039815465,
+    "mean_cpu_percent": 80.7775,
+    "peak_ram_mb": 23096.75,
+    "total_energy_mj": 3.4585,
+    "energy_per_round_mj": 0.864625,
+    "communication_kb": 15.5078125,
+    "comm_per_round_kb": 3.876953125,
+    "n_rounds": 4,
+    "hardware_profile": "raspberry_pi4",
+    "scheduler_stats": {
+      "rounds_run": 4,
+      "total_excluded_events": 0,
+      "rounds_without_improvement": 3,
+      "final_accuracy": 0.9225,
+      "accuracy_history": [
+        0.9225,
+        0.9225,
+        0.9225,
+        0.9225
+      ],
+      "exclusion_log": [
+        {
+          "round": 1,
+          "n_eligible": 10,
+          "n_excluded": 0,
+          "excluded_ids": [],
+          "reasons": {}
+        },
+        {
+          "round": 2,
+          "n_eligible": 10,
+          "n_excluded": 0,
+          "excluded_ids": [],
+          "reasons": {}
+        },
+        {
+          "round": 3,
+          "n_eligible": 10,
+          "n_excluded": 0,
+          "excluded_ids": [],
+          "reasons": {}
+        },
+        {
+          "round": 4,
+          "n_eligible": 10,
+          "n_excluded": 0,
+          "excluded_ids": [],
+          "reasons": {}
+        }
+      ]
+    }
+  },
+  {
+    "configuration": "centralized",
+    "model_name": "RandomForest",
+    "ml_metrics": {
+      "accuracy": 0.9225,
+      "f1": 0.7549301647416352,
+      "precision": 0.932108284501546,
+      "recall": 0.6936092045447775,
+      "roc_auc": 0.6938180145196942
+    },
+    "training_time_s": 2.247941499997978,
+    "inference_latency_mean_ms": 10.801337497105123,
+    "inference_latency_p95_ms": 21.426439394053872,
+    "mean_cpu_percent": 12.98,
+    "peak_ram_mb": 23096.640625,
+    "total_energy_mj": 1675.39702545166,
+    "energy_per_round_mj": 1675.39702545166,
+    "communication_kb": 0.0,
+    "n_rounds": 1,
+    "model_size_kb": 512.8671875,
+    "hardware_profile": "raspberry_pi4"
+  },
+  {
+    "configuration": "fedavg",
+    "model_name": "RandomForest",
+    "ml_metrics": {
+      "accuracy": 0.9225,
+      "f1": 0.7549301647416352,
+      "precision": 0.932108284501546,
+      "recall": 0.6936092045447775,
+      "roc_auc": 0.69417004970478
+    },
+    "training_time_s": 129.58289545899606,
+    "inference_latency_mean_ms": 311.18246679980075,
+    "inference_latency_p95_ms": 313.8130000021192,
+    "mean_cpu_percent": 74.48499999999999,
+    "peak_ram_mb": 23120.44,
+    "total_energy_mj": 14.966999999999999,
+    "energy_per_round_mj": 0.74835,
+    "communication_kb": 64474.08203125,
+    "comm_per_round_kb": 3223.7041015625,
+    "n_rounds": 20,
+    "hardware_profile": "raspberry_pi4"
+  },
+  {
+    "configuration": "ecofl",
+    "model_name": "RandomForest",
+    "ml_metrics": {
+      "accuracy": 0.9225,
+      "f1": 0.7549301647416352,
+      "precision": 0.932108284501546,
+      "recall": 0.6936092045447775,
+      "roc_auc": 0.69417004970478
+    },
+    "training_time_s": 30.00669929200376,
+    "inference_latency_mean_ms": 309.407649601053,
+    "inference_latency_p95_ms": 312.1453746003681,
+    "mean_cpu_percent": 77.96499999999999,
+    "peak_ram_mb": 23113.2,
+    "total_energy_mj": 3.1186,
+    "energy_per_round_mj": 0.77965,
+    "communication_kb": 12894.81640625,
+    "comm_per_round_kb": 3223.7041015625,
+    "n_rounds": 4,
+    "hardware_profile": "raspberry_pi4",
+    "scheduler_stats": {
+      "rounds_run": 4,
+      "total_excluded_events": 0,
+      "rounds_without_improvement": 3,
+      "final_accuracy": 0.9225,
+      "accuracy_history": [
+        0.9225,
+        0.9225,
+        0.9225,
+        0.9225
+      ],
+      "exclusion_log": [
+        {
+          "round": 1,
+          "n_eligible": 10,
+          "n_excluded": 0,
+          "excluded_ids": [],
+          "reasons": {}
+        },
+        {
+          "round": 2,
+          "n_eligible": 10,
+          "n_excluded": 0,
+          "excluded_ids": [],
+          "reasons": {}
+        },
+        {
+          "round": 3,
+          "n_eligible": 10,
+          "n_excluded": 0,
+          "excluded_ids": [],
+          "reasons": {}
+        },
+        {
+          "round": 4,
+          "n_eligible": 10,
+          "n_excluded": 0,
+          "excluded_ids": [],
+          "reasons": {}
+        }
+      ]
+    }
+  },
+  {
+    "configuration": "centralized",
+    "model_name": "XGBoost",
+    "ml_metrics": {
+      "accuracy": 0.9225,
+      "f1": 0.7549301647416352,
+      "precision": 0.932108284501546,
+      "recall": 0.6936092045447775,
+      "roc_auc": 0.6903492367776645
+    },
+    "training_time_s": 0.09281575000204612,
+    "inference_latency_mean_ms": 5.130828998517245,
+    "inference_latency_p95_ms": 12.874593749074842,
+    "mean_cpu_percent": 10.2,
+    "peak_ram_mb": 23112.734375,
+    "total_energy_mj": 0.183966064453125,
+    "energy_per_round_mj": 0.183966064453125,
+    "communication_kb": 0.0,
+    "n_rounds": 1,
+    "model_size_kb": 80.6904296875,
+    "hardware_profile": "raspberry_pi4"
+  },
+  {
+    "configuration": "fedavg",
+    "model_name": "XGBoost",
+    "ml_metrics": {
+      "accuracy": 0.9225,
+      "f1": 0.7549301647416352,
+      "precision": 0.932108284501546,
+      "recall": 0.6936092045447775,
+      "roc_auc": 0.6933249418348317
+    },
+    "training_time_s": 126.24787170800118,
+    "inference_latency_mean_ms": 303.8981581994449,
+    "inference_latency_p95_ms": 306.4491914003156,
+    "mean_cpu_percent": 95.75250000000001,
+    "peak_ram_mb": 23133.03,
+    "total_energy_mj": 23.613999999999997,
+    "energy_per_round_mj": 1.1806999999999999,
+    "communication_kb": 14048.76953125,
+    "comm_per_round_kb": 702.4384765625,
+    "n_rounds": 20,
+    "hardware_profile": "raspberry_pi4"
+  },
+  {
+    "configuration": "ecofl",
+    "model_name": "XGBoost",
+    "ml_metrics": {
+      "accuracy": 0.9225,
+      "f1": 0.7549301647416352,
+      "precision": 0.932108284501546,
+      "recall": 0.6936092045447775,
+      "roc_auc": 0.6933249418348317
+    },
+    "training_time_s": 29.33290833299543,
+    "inference_latency_mean_ms": 305.7041918000323,
+    "inference_latency_p95_ms": 307.00174140074523,
+    "mean_cpu_percent": 90.4375,
+    "peak_ram_mb": 23118.44,
+    "total_energy_mj": 4.105,
+    "energy_per_round_mj": 1.02625,
+    "communication_kb": 2809.75390625,
+    "comm_per_round_kb": 702.4384765625,
+    "n_rounds": 4,
+    "hardware_profile": "raspberry_pi4",
+    "scheduler_stats": {
+      "rounds_run": 4,
+      "total_excluded_events": 0,
+      "rounds_without_improvement": 3,
+      "final_accuracy": 0.9225,
+      "accuracy_history": [
+        0.9225,
+        0.9225,
+        0.9225,
+        0.9225
+      ],
+      "exclusion_log": [
+        {
+          "round": 1,
+          "n_eligible": 10,
+          "n_excluded": 0,
+          "excluded_ids": [],
+          "reasons": {}
+        },
+        {
+          "round": 2,
+          "n_eligible": 10,
+          "n_excluded": 0,
+          "excluded_ids": [],
+          "reasons": {}
+        },
+        {
+          "round": 3,
+          "n_eligible": 10,
+          "n_excluded": 0,
+          "excluded_ids": [],
+          "reasons": {}
+        },
+        {
+          "round": 4,
+          "n_eligible": 10,
+          "n_excluded": 0,
+          "excluded_ids": [],
+          "reasons": {}
+        }
+      ]
+    }
+  },
+  {
+    "configuration": "centralized",
+    "model_name": "MLP",
+    "ml_metrics": {
+      "accuracy": 0.9193,
+      "f1": 0.7497723998584959,
+      "precision": 0.9019930234476201,
+      "recall": 0.6928406199915396,
+      "roc_auc": 0.6897467320261438
+    },
+    "training_time_s": 7.590005666999787,
+    "inference_latency_mean_ms": 3.28546260134317,
+    "inference_latency_p95_ms": 4.783531251450767,
+    "mean_cpu_percent": 15.85,
+    "peak_ram_mb": 23119.265625,
+    "total_energy_mj": 7676.106436157226,
+    "energy_per_round_mj": 7676.106436157226,
+    "communication_kb": 0.0,
+    "n_rounds": 1,
+    "model_size_kb": 11.841796875,
+    "hardware_profile": "raspberry_pi4"
+  },
+  {
+    "configuration": "fedavg",
+    "model_name": "MLP",
+    "ml_metrics": {
+      "accuracy": 0.9221,
+      "f1": 0.7528896290568806,
+      "precision": 0.9325254113312484,
+      "recall": 0.6916236944489129,
+      "roc_auc": 0.688432895567829
+    },
+    "training_time_s": 165.09583445799944,
+    "inference_latency_mean_ms": 302.80521679960657,
+    "inference_latency_p95_ms": 304.5619837983395,
+    "mean_cpu_percent": 100.0,
+    "peak_ram_mb": 23047.91,
+    "total_energy_mj": 80111.79550000001,
+    "energy_per_round_mj": 4005.5897750000004,
+    "communication_kb": 2368.359375,
+    "comm_per_round_kb": 118.41796875,
+    "n_rounds": 20,
+    "hardware_profile": "raspberry_pi4"
+  },
+  {
+    "configuration": "ecofl",
+    "model_name": "MLP",
+    "ml_metrics": {
+      "accuracy": 0.9077,
+      "f1": 0.6785736162707359,
+      "precision": 0.9290638005337498,
+      "recall": 0.6285818870240287,
+      "roc_auc": 0.6828422249331212
+    },
+    "training_time_s": 22.50872654200066,
+    "inference_latency_mean_ms": 304.4673418015009,
+    "inference_latency_p95_ms": 306.09555000264663,
+    "mean_cpu_percent": 48.16833333333333,
+    "peak_ram_mb": 23047.64,
+    "total_energy_mj": 5701.875899999999,
+    "energy_per_round_mj": 950.3126499999998,
+    "communication_kb": 284.203125,
+    "comm_per_round_kb": 47.3671875,
+    "n_rounds": 6,
+    "hardware_profile": "raspberry_pi4",
+    "scheduler_stats": {
+      "rounds_run": 6,
+      "total_excluded_events": 36,
+      "rounds_without_improvement": 3,
+      "final_accuracy": 0.9077,
+      "accuracy_history": [
+        0.9221,
+        0.9221,
+        0.9077,
+        0.9077,
+        0.9077,
+        0.9077
+      ],
+      "exclusion_log": [
+        {
+          "round": 1,
+          "n_eligible": 10,
+          "n_excluded": 0,
+          "excluded_ids": [],
+          "reasons": {}
+        },
+        {
+          "round": 2,
+          "n_eligible": 6,
+          "n_excluded": 4,
+          "excluded_ids": [
+            3,
+            5,
+            6,
+            7
+          ],
+          "reasons": {
+            "3": {
+              "cpu_ok": true,
+              "ram_ok": true,
+              "energy_ok": false,
+              "cpu_pct": 0.0,
+              "ram_pct": 50.8,
+              "energy_rem": -101.58153381347654
+            },
+            "5": {
+              "cpu_ok": true,
+              "ram_ok": true,
+              "energy_ok": false,
+              "cpu_pct": 0.0,
+              "ram_pct": 50.8,
+              "energy_rem": -129.62153472900388
+            },
+            "6": {
+              "cpu_ok": true,
+              "ram_ok": true,
+              "energy_ok": false,
+              "cpu_pct": 0.0,
+              "ram_pct": 50.8,
+              "energy_rem": -376.01260528564455
+            },
+            "7": {
+              "cpu_ok": true,
+              "ram_ok": true,
+              "energy_ok": false,
+              "cpu_pct": 0.0,
+              "ram_pct": 50.8,
+              "energy_rem": -82.1552734375
+            }
+          }
+        },
+        {
+          "round": 3,
+          "n_eligible": 2,
+          "n_excluded": 8,
+          "excluded_ids": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "reasons": {
+            "0": {
+              "cpu_ok": true,
+              "ram_ok": true,
+              "energy_ok": false,
+              "cpu_pct": 10.0,
+              "ram_pct": 50.8,
+              "energy_rem": -183.52254231770826
+            },
+            "1": {
+              "cpu_ok": true,
+              "ram_ok": true,
+              "energy_ok": false,
+              "cpu_pct": 12.7,
+              "ram_pct": 50.8,
+              "energy_rem": -303.024393717448
+            },
+            "2": {
+              "cpu_ok": true,
+              "ram_ok": true,
+              "energy_ok": false,
+              "cpu_pct": 11.6,
+              "ram_pct": 50.8,
+              "energy_rem": -448.19331970214853
+            },
+            "3": {
+              "cpu_ok": true,
+              "ram_ok": true,
+              "energy_ok": false,
+              "cpu_pct": 10.0,
+              "ram_pct": 50.8,
+              "energy_rem": -101.58153381347654
+            },
+            "4": {
+              "cpu_ok": true,
+              "ram_ok": true,
+              "energy_ok": false,
+              "cpu_pct": 8.2,
+              "ram_pct": 50.8,
+              "energy_rem": -76.55852584838874
+            },
+            "5": {
+              "cpu_ok": true,
+              "ram_ok": true,
+              "energy_ok": false,
+              "cpu_pct": 7.1,
+              "ram_pct": 50.8,
+              "energy_rem": -129.62153472900388
+            },
+            "6": {
+              "cpu_ok": true,
+              "ram_ok": true,
+              "energy_ok": false,
+              "cpu_pct": 7.9,
+              "ram_pct": 50.8,
+              "energy_rem": -376.01260528564455
+            },
+            "7": {
+              "cpu_ok": true,
+              "ram_ok": true,
+              "energy_ok": false,
+              "cpu_pct": 0.0,
+              "ram_pct": 50.8,
+              "energy_rem": -82.1552734375
+            }
+          }
+        },
+        {
+          "round": 4,
+          "n_eligible": 2,
+          "n_excluded": 8,
+          "excluded_ids": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "reasons": {
+            "0": {
+              "cpu_ok": true,
+              "ram_ok": true,
+              "energy_ok": false,
+              "cpu_pct": 8.8,
+              "ram_pct": 50.8,
+              "energy_rem": -183.52254231770826
+            },
+            "1": {
+              "cpu_ok": true,
+              "ram_ok": true,
+              "energy_ok": false,
+              "cpu_pct": 12.1,
+              "ram_pct": 50.8,
+              "energy_rem": -303.024393717448
+            },
+            "2": {
+              "cpu_ok": true,
+              "ram_ok": true,
+              "energy_ok": false,
+              "cpu_pct": 10.4,
+              "ram_pct": 50.8,
+              "energy_rem": -448.19331970214853
+            },
+            "3": {
+              "cpu_ok": true,
+              "ram_ok": true,
+              "energy_ok": false,
+              "cpu_pct": 11.8,
+              "ram_pct": 50.8,
+              "energy_rem": -101.58153381347654
+            },
+            "4": {
+              "cpu_ok": true,
+              "ram_ok": true,
+              "energy_ok": false,
+              "cpu_pct": 0.0,
+              "ram_pct": 50.8,
+              "energy_rem": -76.55852584838874
+            },
+            "5": {
+              "cpu_ok": true,
+              "ram_ok": true,
+              "energy_ok": false,
+              "cpu_pct": 0.0,
+              "ram_pct": 50.8,
+              "energy_rem": -129.62153472900388
+            },
+            "6": {
+              "cpu_ok": true,
+              "ram_ok": true,
+              "energy_ok": false,
+              "cpu_pct": 9.0,
+              "ram_pct": 50.8,
+              "energy_rem": -376.01260528564455
+            },
+            "7": {
+              "cpu_ok": true,
+              "ram_ok": true,
+              "energy_ok": false,
+              "cpu_pct": 8.9,
+              "ram_pct": 50.8,
+              "energy_rem": -82.1552734375
+            }
+          }
+        },
+        {
+          "round": 5,
+          "n_eligible": 2,
+          "n_excluded": 8,
+          "excluded_ids": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "reasons": {
+            "0": {
+              "cpu_ok": true,
+              "ram_ok": true,
+              "energy_ok": false,
+              "cpu_pct": 9.2,
+              "ram_pct": 50.8,
+              "energy_rem": -183.52254231770826
+            },
+            "1": {
+              "cpu_ok": true,
+              "ram_ok": true,
+              "energy_ok": false,
+              "cpu_pct": 10.7,
+              "ram_pct": 50.8,
+              "energy_rem": -303.024393717448
+            },
+            "2": {
+              "cpu_ok": true,
+              "ram_ok": true,
+              "energy_ok": false,
+              "cpu_pct": 0.0,
+              "ram_pct": 50.8,
+              "energy_rem": -448.19331970214853
+            },
+            "3": {
+              "cpu_ok": true,
+              "ram_ok": true,
+              "energy_ok": false,
+              "cpu_pct": 0.0,
+              "ram_pct": 50.8,
+              "energy_rem": -101.58153381347654
+            },
+            "4": {
+              "cpu_ok": true,
+              "ram_ok": true,
+              "energy_ok": false,
+              "cpu_pct": 0.0,
+              "ram_pct": 50.8,
+              "energy_rem": -76.55852584838874
+            },
+            "5": {
+              "cpu_ok": true,
+              "ram_ok": true,
+              "energy_ok": false,
+              "cpu_pct": 0.0,
+              "ram_pct": 50.8,
+              "energy_rem": -129.62153472900388
+            },
+            "6": {
+              "cpu_ok": true,
+              "ram_ok": true,
+              "energy_ok": false,
+              "cpu_pct": 0.0,
+              "ram_pct": 50.8,
+              "energy_rem": -376.01260528564455
+            },
+            "7": {
+              "cpu_ok": true,
+              "ram_ok": true,
+              "energy_ok": false,
+              "cpu_pct": 0.0,
+              "ram_pct": 50.8,
+              "energy_rem": -82.1552734375
+            }
+          }
+        },
+        {
+          "round": 6,
+          "n_eligible": 2,
+          "n_excluded": 8,
+          "excluded_ids": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "reasons": {
+            "0": {
+              "cpu_ok": true,
+              "ram_ok": true,
+              "energy_ok": false,
+              "cpu_pct": 8.3,
+              "ram_pct": 50.8,
+              "energy_rem": -183.52254231770826
+            },
+            "1": {
+              "cpu_ok": true,
+              "ram_ok": true,
+              "energy_ok": false,
+              "cpu_pct": 9.5,
+              "ram_pct": 50.8,
+              "energy_rem": -303.024393717448
+            },
+            "2": {
+              "cpu_ok": true,
+              "ram_ok": true,
+              "energy_ok": false,
+              "cpu_pct": 0.0,
+              "ram_pct": 50.8,
+              "energy_rem": -448.19331970214853
+            },
+            "3": {
+              "cpu_ok": true,
+              "ram_ok": true,
+              "energy_ok": false,
+              "cpu_pct": 0.0,
+              "ram_pct": 50.8,
+              "energy_rem": -101.58153381347654
+            },
+            "4": {
+              "cpu_ok": true,
+              "ram_ok": true,
+              "energy_ok": false,
+              "cpu_pct": 0.0,
+              "ram_pct": 50.8,
+              "energy_rem": -76.55852584838874
+            },
+            "5": {
+              "cpu_ok": true,
+              "ram_ok": true,
+              "energy_ok": false,
+              "cpu_pct": 0.0,
+              "ram_pct": 50.8,
+              "energy_rem": -129.62153472900388
+            },
+            "6": {
+              "cpu_ok": true,
+              "ram_ok": true,
+              "energy_ok": false,
+              "cpu_pct": 0.0,
+              "ram_pct": 50.8,
+              "energy_rem": -376.01260528564455
+            },
+            "7": {
+              "cpu_ok": true,
+              "ram_ok": true,
+              "energy_ok": false,
+              "cpu_pct": 0.0,
+              "ram_pct": 50.8,
+              "energy_rem": -82.1552734375
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "configuration": "centralized",
+    "model_name": "IsolationForest",
+    "ml_metrics": {
+      "accuracy": 0.8852,
+      "f1": 0.7037704041036159,
+      "precision": 0.730718232044199,
+      "recall": 0.6846613759450909,
+      "roc_auc": 0.695247101423371
+    },
+    "training_time_s": 0.09255449999909615,
+    "inference_latency_mean_ms": 15.173854200838832,
+    "inference_latency_p95_ms": 26.428927198867285,
+    "mean_cpu_percent": 0.0,
+    "peak_ram_mb": 23018.890625,
+    "total_energy_mj": 296.1743999971077,
+    "energy_per_round_mj": 296.1743999971077,
+    "communication_kb": 0.0,
+    "n_rounds": 1,
+    "model_size_kb": 522.4453125,
+    "hardware_profile": "raspberry_pi4"
+  },
+  {
+    "configuration": "fedavg",
+    "model_name": "IsolationForest",
+    "ml_metrics": {
+      "accuracy": 0.8933,
+      "f1": 0.7160285439484685,
+      "precision": 0.7560626223091977,
+      "recall": 0.6903308041539314,
+      "roc_auc": 0.6949147556318183
+    },
+    "training_time_s": 132.24329866700282,
+    "inference_latency_mean_ms": 309.2546751984628,
+    "inference_latency_p95_ms": 313.01778339984594,
+    "mean_cpu_percent": 94.81349999999999,
+    "peak_ram_mb": 23103.06,
+    "total_energy_mj": 23.881999999999998,
+    "energy_per_round_mj": 1.1941,
+    "communication_kb": 104121.42578125,
+    "comm_per_round_kb": 5206.0712890625,
+    "n_rounds": 20,
+    "hardware_profile": "raspberry_pi4"
+  },
+  {
+    "configuration": "ecofl",
+    "model_name": "IsolationForest",
+    "ml_metrics": {
+      "accuracy": 0.8933,
+      "f1": 0.7160285439484685,
+      "precision": 0.7560626223091977,
+      "recall": 0.6903308041539314,
+      "roc_auc": 0.6949147556318183
+    },
+    "training_time_s": 30.609396749998268,
+    "inference_latency_mean_ms": 311.3314415983041,
+    "inference_latency_p95_ms": 312.5196332024643,
+    "mean_cpu_percent": 93.7675,
+    "peak_ram_mb": 23048.0,
+    "total_energy_mj": 4.408799999999999,
+    "energy_per_round_mj": 1.1021999999999998,
+    "communication_kb": 20824.28515625,
+    "comm_per_round_kb": 5206.0712890625,
+    "n_rounds": 4,
+    "hardware_profile": "raspberry_pi4",
+    "scheduler_stats": {
+      "rounds_run": 4,
+      "total_excluded_events": 0,
+      "rounds_without_improvement": 3,
+      "final_accuracy": 0.8933,
+      "accuracy_history": [
+        0.8933,
+        0.8933,
+        0.8933,
+        0.8933
+      ],
+      "exclusion_log": [
+        {
+          "round": 1,
+          "n_eligible": 10,
+          "n_excluded": 0,
+          "excluded_ids": [],
+          "reasons": {}
+        },
+        {
+          "round": 2,
+          "n_eligible": 10,
+          "n_excluded": 0,
+          "excluded_ids": [],
+          "reasons": {}
+        },
+        {
+          "round": 3,
+          "n_eligible": 10,
+          "n_excluded": 0,
+          "excluded_ids": [],
+          "reasons": {}
+        },
+        {
+          "round": 4,
+          "n_eligible": 10,
+          "n_excluded": 0,
+          "excluded_ids": [],
+          "reasons": {}
+        }
+      ]
+    }
+  }
+]
